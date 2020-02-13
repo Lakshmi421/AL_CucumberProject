@@ -1,0 +1,86 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "This is Login scenario of OrangeHRM",
+        "description": "",
+        "id": "this-is-login-feature-of-orangehrm;this-is-login-scenario-of-orangehrm",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "User entering to Orange HRM login page",
+            "match": {
+              "location": "LoginStepDefinition.user_entering_to_Orange_HRM_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "Type the valid username as \"Admin\" and password as \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 28
+                },
+                {
+                  "val": "admin123",
+                  "offset": 52
+                }
+              ],
+              "location": "LoginStepDefinition.type_the_valid_username_as_and_password_as(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Press the login button",
+            "match": {
+              "location": "LoginStepDefinition.press_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "the user should be navigated to home page",
+            "match": {
+              "location": "LoginStepDefinition.the_user_should_be_navigated_to_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "This is Login feature of OrangeHRM",
+    "description": "",
+    "id": "this-is-login-feature-of-orangehrm",
+    "keyword": "Feature",
+    "uri": "Login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@SimpleLogin"
+      },
+      {
+        "line": 1,
+        "name": "@Expression"
+      }
+    ]
+  }
+]
